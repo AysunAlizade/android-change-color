@@ -1,0 +1,46 @@
+# ─── Gradle ───────────────────────────────────────────
+.gradle/
+build/
+/captures/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ─── Kotlin ───────────────────────────────────────────
+.kotlin/
+
+# ─── Local machine configuration (never commit) ──────
+local.properties
+keystore.properties
+*.jks
+*.keystore
+
+# ─── Android Studio / IntelliJ IDEA ──────────────────
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ─── Native build artifacts ──────────────────────────
+.externalNativeBuild/
+.cxx/
+
+# ─── Generated / release artifacts ───────────────────
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+output.json
+
+# ─── Logs ─────────────────────────────────────────────
+*.log
+
+# ─── OS-generated files ──────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Misc ─────────────────────────────────────────────
+.vscode/
+*.swp
+*~
